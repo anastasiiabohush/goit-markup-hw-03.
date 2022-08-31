@@ -1,0 +1,19 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  height: 100%;
+}
+
+.card-set {
+  display: flex;
+  list-style: none;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-basis: calc(100% / 3);
+  padding: 10px;
+  background-color: aqua;
+  border: 2px solid black;
+}
